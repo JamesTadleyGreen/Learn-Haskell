@@ -9,7 +9,7 @@ insertAt x l i = let (first, last) = splitAt (i-1) l
 range :: Int -> Int -> [Int]
 range i j = [i..j]
 
-rndSelect :: [a] -> Int -> IO ()
-rndSelect l = do
+rndSelect :: [a] -> Int -> IO [a]
+rndSelect xs = do
     gen <- getStdGen
-    return $ take n [ xs !! x | x <- randomRs (0, (length xs) - 1) gen]
+    return $ take n [ xs !! x | x <- randomRs (0, length xs - 1) gen]

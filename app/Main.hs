@@ -3,6 +3,7 @@ module Main where
 import Lists
 import Lists_Continued
 import Lists_Again
+import Arithmetic
 
 main :: IO ()
-main = Lists_Again.main 
+main = Arithmetic.main 

@@ -29,6 +29,7 @@ library
     Lists
     Lists_Continued
     Lists_Again
+    Arithmetic
 
   -- other-modules:
   -- other-extensions:

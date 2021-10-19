@@ -1,0 +1,1 @@
+cabal run Learn-Haskell && hp2ps -e8in -c Learn-Haskell.hp
